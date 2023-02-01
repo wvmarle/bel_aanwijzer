@@ -3,9 +3,9 @@
 */
 
 const uint8_t N_LAMPJES = 8;                                // De losse lampjes.
-const uint8_t PIN_LAMPJE[N_LAMPJES] = {4, 5, 6, 7, 8, 9, 10, 11};
-const uint8_t PIN_SENSOR = 12;
-const uint32_t SPEED = 400;                                 // Tijd per stap in ms.
+const uint8_t PIN_LAMPJE[N_LAMPJES] = {2, 3, 4, 5, 6, 7, 8, 9};
+const uint8_t PIN_SENSOR = 10;
+const uint32_t SPEED = 300;                                 // Tijd per stap in ms.
 
 void setup() {
   for (uint8_t i = 0; i < N_LAMPJES; i++) {
